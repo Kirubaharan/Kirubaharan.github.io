@@ -1,8 +1,11 @@
-name: ""
-description: ""
+name: "Open Source Tech for Hydrology"
+description: "A blog to doucment my workflows using python and linux, majorly related to hydrology."
+email: haran.kiruba@gmail.com
 url: "http:localhost:4000"
 paginate: 10
+paginate_path: "blog/posts/:num"
 auto: true
 markdown: rdiscount
-pygments: true
+highlighter: pygment
 permalink: /blog/:title
+github_username: Kirubaharan
